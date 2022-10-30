@@ -147,3 +147,7 @@ git log master...branch_99 --boundary -- graph # показать коммиты
 Создание
 Клонировать существующий репозиторий
 $ git clone ssh://user@domain.com/repo.git
+Создать новую ветку на основе текущей HEAD
+$ git branch <новая-ветка>
+Создать новую ветку и сразу переключится в нее
+$ git checkout -b <новая-ветка>
